@@ -16,6 +16,41 @@
     font-family: christmas-font;
     position: relative;
 }
+
+.Card {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-family: christmas-font;
+    position: relative;
+}
+
+.Home {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: christmas-font;
+    position: relative;
+    background: linear-gradient(to right bottom, #d96459 50%, #c04e43 50%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header_text {
+    font-size: 36px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 30px 0;
+}
+
 .item {
     display: flex;
     height: 100%;
@@ -34,7 +69,7 @@
 }
 
 .item.candy {
-    background-color: #468966bf;
+    background-color: #65f576;
 }
 
 .item.sock {
@@ -82,7 +117,7 @@
 }
 
 .card-container .card {
-    height: 90%;
+    height: 30%;
     width: 90%;
     margin: auto;
     border-radius: 10px;
@@ -90,7 +125,7 @@
     align-items: center;
     flex-direction: column;
     box-sizing: border-box;
-    padding: 10px 5%;
+    padding: 20px 6%;
     position: relative;
     transition: display 0.5 ease;
 }
@@ -105,10 +140,12 @@
 .card.leaves {
     color: white;
     display: none;
+    justify-content: center;
+    align-items: center;
 }
 
 .card.candy {
-    background-color: #468966bf;
+    background-color: #65f576;
 }
 
 .card.milk {

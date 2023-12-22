@@ -1,0 +1,22 @@
+.Button__Container {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    padding: 6px 6px 3px 6px;
+}
+
+.Button__Container span {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.deleteAll {
+    background-color: #f2ae72;
+    width: max-content;
+    border-radius: 12px;
+    border-bottom: 4px solid #f2ae72;
+    transition: all 2ms;
+}
